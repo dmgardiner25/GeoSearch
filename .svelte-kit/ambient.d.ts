@@ -61,6 +61,7 @@ declare module '$env/static/private' {
 	export const COMMAND_MODE: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
+	export const npm_package_devDependencies_postcss: string;
 	export const npm_package_devDependencies_eslint: string;
 	export const npm_execpath: string;
 	export const npm_package_devDependencies_tslib: string;
@@ -75,6 +76,7 @@ declare module '$env/static/private' {
 	export const _: string;
 	export const __CFBundleIdentifier: string;
 	export const PWD: string;
+	export const npm_package_devDependencies_tailwindcss: string;
 	export const npm_package_scripts_preview: string;
 	export const P9K_SSH: string;
 	export const npm_lifecycle_event: string;
@@ -91,6 +93,7 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__sveltejs_adapter_auto: string;
 	export const npm_package_version: string;
 	export const npm_package_devDependencies_svelte_check: string;
+	export const npm_package_devDependencies_autoprefixer: string;
 	export const COLORFGBG: string;
 	export const HOME: string;
 	export const SHLVL: string;
@@ -183,6 +186,7 @@ declare module '$env/dynamic/private' {
 		COMMAND_MODE: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
+		npm_package_devDependencies_postcss: string;
 		npm_package_devDependencies_eslint: string;
 		npm_execpath: string;
 		npm_package_devDependencies_tslib: string;
@@ -197,6 +201,7 @@ declare module '$env/dynamic/private' {
 		_: string;
 		__CFBundleIdentifier: string;
 		PWD: string;
+		npm_package_devDependencies_tailwindcss: string;
 		npm_package_scripts_preview: string;
 		P9K_SSH: string;
 		npm_lifecycle_event: string;
@@ -213,6 +218,7 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies__sveltejs_adapter_auto: string;
 		npm_package_version: string;
 		npm_package_devDependencies_svelte_check: string;
+		npm_package_devDependencies_autoprefixer: string;
 		COLORFGBG: string;
 		HOME: string;
 		SHLVL: string;
